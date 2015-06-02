@@ -12,5 +12,5 @@ make
 sudo make install
 ln -sfv pi-blaster /usr/bin/pi-blaster
 cd ..
-python wiimote-pwm.py
 echo "Installation ready"
+echo "Run python wiimote-pwm.py"
