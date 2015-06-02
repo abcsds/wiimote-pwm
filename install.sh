@@ -16,7 +16,7 @@ while :
 do
     read -p "Do you whish to run on boot?" yn
         case $yn in
-            [Yy]* ) echo >> 'bash ~/wiimote-pwm/onBoot.sh' ~/.bashrc;echo "done!"; break;;
+            [Yy]* ) echo 'bash ~/wiimote-pwm/onBoot.sh' >> ~/.bashrc;echo "done!"; break;;
             [Nn]* ) break;;
             * ) echo "Please answer yes or no.";;
         esac
