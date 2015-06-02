@@ -8,7 +8,7 @@ This script generates 3 PWM on pins 23, 24, and 25 of raspberry GPIO, coming fro
  - wiimote
 
 ### Software
-This code uses linux bluetooth module and (pi-blaster)[https://github.com/sarfata/pi-blaster], they should be installed as specified here before running the program. The (installation script)[#installation-script] runs these installations for you.
+This code uses linux bluetooth module and [pi-blaster](https://github.com/sarfata/pi-blaster), they should be installed as specified here before running the program. The [installation script](#installation-script) runs these installations for you.
 
 ## Manual Installation
 
