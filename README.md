@@ -44,6 +44,10 @@ chmod +x install.sh
 ./install.sh
 ```
 
+## Run on boot:
+To detect wiimote on boot and start generating pwm run the following command:
+`echo >> 'bash ~/wiimote-pwm/onBoot.sh' ~/.bashrc`
+
 ## LICENCE
 
 This code is licensed under GPLv3.
