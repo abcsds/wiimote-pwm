@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Installing..."
 sudo apt-get update
-sudo apt-get install --no-install-recommends bluetooth
-sudo apt-get install python-cwiid
+sudo apt-get install -y --no-install-recommends bluetooth
+sudo apt-get install -y python-cwiid
 git clone https://github.com/sarfata/pi-blaster.git
 cd pi-blaster
 sudo apt-get install autoconf
