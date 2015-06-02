@@ -25,7 +25,7 @@ print 'Wii Remote connected...\n'
 print 'Press some buttons!\n'
 print 'Press PLUS and MINUS together to disconnect and quit.\n'
 
-wii.rpt_mode = cwiid.RPT_BTN | wii.rpt_mode = cwiid.RPT_ACC
+wii.rpt_mode = wii.rpt_mode = cwiid.RPT_ACC
 
 while True:
 

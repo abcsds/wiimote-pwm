@@ -31,7 +31,7 @@ make
 sudo make install
 ln -sfv pi-blaster /usr/bin/pi-blaster
 ```
-Then run in a separate console pi-blaster `pi-blaster`
+Then run in a separate console pi-blaster `sudo pi-blaster`
 
 ### Run the program
 
