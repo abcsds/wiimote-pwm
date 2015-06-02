@@ -12,6 +12,15 @@ make
 sudo make install
 ln -sfv pi-blaster /usr/bin/pi-blaster
 cd ..
+while :
+do
+    read -p "Do you whish to run on boot?" yn
+        case $yn in
+            [Yy]* ) echo >> 'bash ~/wiimote-pwm/onBoot.sh' ~/.bashrc;echo "done!"; break;;
+            [Nn]* ) break;;
+            * ) echo "Please answer yes or no.";;
+        esac
+done
 echo "Startin pi-blaster"
 sudo pi-blaster
 echo "Installation ready"
